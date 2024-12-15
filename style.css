@@ -120,7 +120,13 @@ main {
     max-width: 900px; /* Largura máxima */
     margin: 0 auto; /* Centraliza horizontalmente */
 }
-  
+
+.section-experiencia {
+    padding: 50px 20px; /* Espaçamento interno */
+    max-width: 900px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
 /* Título */
 h2 {
     font-size: 32px;
@@ -142,11 +148,24 @@ h2 {
     padding: 60px 0; /* Espaçamento superior e inferior */
     font-weight: bold; /* Texto em negrito */
 }
-  
+
 .formacao-item a {
     color: #FF6464; /* Cor do link */
 }
+
+.experiencia-item {
+    display: flex; /* Exibe itens em linha */
+    justify-content: space-between; /* Espaço entre os itens */
+    align-items: flex-start; /* Alinha itens ao topo */
+    border-bottom: 2px solid #e6e6e6; /* Linha separadora inferior */
+    padding: 60px 0; /* Espaçamento superior e inferior */
+    font-weight: bold; /* Texto em negrito */
+}
   
+.experiencia-item a {
+    color: #FF6464; /* Cor do link */
+}
+
 /* Título de terceiro nível */
 h3 {
     font-size: 20px;
@@ -163,6 +182,13 @@ p {
   
 /* Data das formações */
 .formacao-data {
+    font-size: 14px;
+    color: #777; /* Cinza */
+    font-weight: bold;
+}
+
+/* Data das experiência */
+.experiencia-data {
     font-size: 14px;
     color: #777; /* Cinza */
     font-weight: bold;
